@@ -1,10 +1,10 @@
 
-##Contrato Sistema de Votación
+# Contrato Sistema de Votación
 
 Este contrato inteligente implementa un sistema de votación en la cadena de bloques Ethereum. Permite a un administrador crear propuestas y a los votantes autorizados votar por las propuestas durante un período de tiempo determinado.
 
 
-#Características del contrato
+## Características del contrato
 
 - Admin: Dirección del administrador del contrato, quien tiene el control sobre la creación de propuestas y la gestión de la lista de votantes autorizados.
 
@@ -18,7 +18,7 @@ Este contrato inteligente implementa un sistema de votación en la cadena de blo
 
 - Ha Votado: Mapeo que indica si una dirección ya ha emitido su voto.
 
-#Funcionalidades
+## Funcionalidades
 
 - agregarAListaBlanca: Permite al administrador agregar direcciones a la lista de votantes autorizados.
 
@@ -30,7 +30,7 @@ Este contrato inteligente implementa un sistema de votación en la cadena de blo
 
 - votar: Permite a los votantes autorizados emitir su voto por una propuesta durante el período de votación.
 
-Modificadores
+## Modificadores
 
 - soloAdmin: Restringe ciertas funciones solo al administrador del contrato.
 
@@ -38,12 +38,13 @@ Modificadores
 
 - durantePeriodoVotacion: Restringe ciertas funciones para que solo puedan ejecutarse durante el período de votación.
 
-#Notas importantes
+## Notas importantes
 Las propuestas se convierten a minúsculas, al igual que los parametros de los metodos que interactuan con estas para permitir una búsqueda insensible a mayúsculas y minúsculas.
 
 Los votantes autorizados solo pueden votar una vez por cada propuesta.
 
-#Uso del contrato
+## Uso del contrato
+
 El administrador debe desplegar el contrato.
 
 El administrador agrega las direcciones de los votantes autorizados mediante la función agregarAListaBlanca.
