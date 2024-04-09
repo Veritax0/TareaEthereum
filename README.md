@@ -47,9 +47,9 @@ Los votantes autorizados solo pueden votar una vez por cada propuesta.
 
 El administrador debe desplegar el contrato.
 
-El administrador agrega las direcciones de los votantes autorizados mediante la función agregarAListaBlanca.
+Agregar las direcciones de los votantes autorizados mediante la función agregarAListaBlanca.
 
-El administrador crea propuestas utilizando la función agregarPropuesta.
+Crear propuestas utilizando la función agregarPropuesta.
 
 Los votantes autorizados pueden votar por las propuestas utilizando la función votar durante el período de votación.
 
